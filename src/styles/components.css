@@ -1,0 +1,31 @@
+.navbar {
+    position: relative; /* 使用 relative 來調整位置 */
+    top: 0px; /* 向下移動 20px，可根據需要調整 */
+    background-color: #333; /* 背景色 */
+    padding: 10px; /* 增加內部間距 */
+    color: white; /* 字體顏色 */
+}
+
+.navbar ul {
+    list-style: none; /* 移除項目符號 */
+    display: flex; /* 將列表水平排列 */
+    justify-content: space-around; /* 均分導航項目 */
+    margin: 0; /* 移除外部間距 */
+    padding: 0; /* 移除內部間距 */
+}
+
+.navbar li {
+    margin: 0 10px; /* 為每個項目添加間距 */
+}
+
+.navbar a {
+    text-decoration: none; /* 移除下劃線 */
+    color: white; /* 文字顏色 */
+    font-size: 16px; /* 字體大小 */
+    transition: color 0.3s ease; /* 添加滑動效果 */
+}
+
+.navbar a:hover {
+    color: #ff9900; /* 滑鼠懸停時改變文字顏色 */
+    cursor: pointer;
+}
