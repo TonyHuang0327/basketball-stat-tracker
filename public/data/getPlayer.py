@@ -1,9 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import json
 import time
+import json
 
-# 球隊名稱列表
 teams_name = [
     "ATL", "BOS", "BRK", "CHO", "CHI", "CLE", "DAL", "DEN", "DET", 
     "GSW", "HOU", "IND", "LAC", "LAL", "MEM", "MIA", "MIL", "MIN", 
@@ -12,35 +11,34 @@ teams_name = [
 ]
 
 base_url = 'https://www.basketball-reference.com/teams/{}/2025.html'
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+}
 
-# 儲存所有球隊資料的字典
-teams_data = {}
+data = {}
 
-# 爬取每個球隊的資料
 for team_name in teams_name:
-    url = base_url.format(team_name)  # 格式化 URL
+    url = base_url.format(team_name)
     try:
-        web = requests.get(url)  # 取得網頁内容
-        time.sleep(5)  # 等待5秒，避免過度請求
-        web.raise_for_status()   # 檢查 HTTP 請求是否成功
-        soup = BeautifulSoup(web.text, "html.parser")  # 轉換成標籤數
-        print(f"Successfully fetched data for {team_name}")  # 輸出成功訊息
+        print(f"Fetching data for {team_name}...")
+        web = requests.get(url, headers=headers)
+        time.sleep(5)  # 避免觸發反爬蟲機制
+        web.raise_for_status()
+        soup = BeautifulSoup(web.text, "html.parser")
 
-        # 查找指定表格
-        table = soup.find('table', class_='sortable stats_table now_sortable')
+        # 抓取所有 <td> 中 `data-stat="player"` 並提取 <a> 的文字
+        player_cells = soup.select('td[data-stat="player"] a')
+        players = [player.text.strip() for player in player_cells]
 
-        players = table.select('td[data-stat="player"]')
-
-        player_names = [player.text.strip() for player in players]
-
-        # 將每個球隊的球員名稱儲存到字典中
-        teams_data[team_name] = player_names
-
-    except requests.exceptions.RequestException as e:
+        # 將球員存入字典
+        data[team_name] = players
+        print(f"Found {len(players)} players for {team_name}")
+    except Exception as e:
         print(f"Failed to fetch data for {team_name}: {e}")
 
-# 將資料保存成 JSON 檔案
-with open('basketball-stats-tracker/public/data/players.json', 'w', encoding='utf-8') as f:
-    json.dump(teams_data, f, ensure_ascii=False, indent=4)
+# 保存為 JSON
+output_path = 'basketball-stats-tracker/public/data/players.json'
+with open(output_path, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
 
-print("Data has been saved to 'players.json'")
+print(f"Player data has been saved to {output_path}")

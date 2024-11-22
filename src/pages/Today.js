@@ -40,7 +40,7 @@ function Today() {
           ))
         ) : (
           <p>Loading gamedata...</p>
-        )};
+        )}
       </div>
     </div>
   );
