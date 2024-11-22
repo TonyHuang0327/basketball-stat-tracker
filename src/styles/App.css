@@ -93,6 +93,22 @@
   border-radius: 3px;
 }
 
+
+.player-div{
+  background-color: antiquewhite;
+}
+
+.player-div h1{
+  padding:0px;
+  margin: 0px;
+}
+.players-display h2{
+  background-color: orange;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  text-align: left;
+  padding-left: 10px;
+}
 .players-display {
   display: flex;
   flex-wrap: wrap; /* 允許換行 */
@@ -100,7 +116,6 @@
 }
 
 .players-display ul {
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -109,10 +124,8 @@
 
 .players-display li {
   width: auto;
-  margin: 10px 5px; /* 增加間距 */
+  margin: 5px 5px; /* 增加間距 */
   list-style: none; /* 移除項目符號 */
   font-size: 0.8rem;
-  border: 1px solid #282c34; /* 添加邊框寬度和樣式 */
   padding-bottom: 2px;
-  border-radius: 3px;
 }

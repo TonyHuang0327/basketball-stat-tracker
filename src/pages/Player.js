@@ -13,7 +13,7 @@ function Players(){
     },[]);
     return (
         <div className="player-div">
-            <h1>Players</h1>
+            <h1>Current Players</h1>
             <div className="players-display">
                 {Object.keys(players).length > 0 ? (
                     Object.entries(players).map(([team, teamPlayers]) => (
