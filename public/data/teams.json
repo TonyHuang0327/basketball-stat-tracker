@@ -1,32 +1,92 @@
-[
-    "Atlanta Hawks",
-    "Boston Celtics",
-    "Brooklyn Nets",
-    "Charlotte Hornets",
-    "Chicago Bulls",
-    "Cleveland Cavaliers",
-    "Dallas Mavericks",
-    "Denver Nuggets",
-    "Detroit Pistons",
-    "Golden State Warriors",
-    "Houston Rockets",
-    "Indiana Pacers",
-    "Los Angeles Clippers",
-    "Los Angeles Lakers",
-    "Memphis Grizzlies",
-    "Miami Heat",
-    "Milwaukee Bucks",
-    "Minnesota Timberwolves",
-    "New Orleans Pelicans",
-    "New York Knicks",
-    "Oklahoma City Thunder",
-    "Orlando Magic",
-    "Philadelphia 76ers",
-    "Phoenix Suns",
-    "Portland Trail Blazers",
-    "Sacramento Kings",
-    "San Antonio Spurs",
-    "Toronto Raptors",
-    "Utah Jazz",
-    "Washington Wizards"
-]
+{
+    "Atlanta Hawks": {
+        "logo": "/nba_team_logos/Atlanta Hawks.png"
+    },
+    "Boston Celtics": {
+        "logo": "/nba_team_logos/Boston Celtics.png"
+    },
+    "Brooklyn Nets": {
+        "logo": "/nba_team_logos/Brooklyn Nets.png"
+    },
+    "Charlotte Hornets": {
+        "logo": "/nba_team_logos/Charlotte Hornets.png"
+    },
+    "Chicago Bulls": {
+        "logo": "/nba_team_logos/Chicago Bulls.png"
+    },
+    "Cleveland Cavaliers": {
+        "logo": "/nba_team_logos/Cleveland Cavaliers.png"
+    },
+    "Dallas Mavericks": {
+        "logo": "/nba_team_logos/Dallas Mavericks.png"
+    },
+    "Denver Nuggets": {
+        "logo": "/nba_team_logos/Denver Nuggets.png"
+    },
+    "Detroit Pistons": {
+        "logo": "/nba_team_logos/Detroit Pistons.png"
+    },
+    "Golden State Warriors": {
+        "logo": "/nba_team_logos/Golden State Warriors.png"
+    },
+    "Houston Rockets": {
+        "logo": "/nba_team_logos/Houston Rockets.png"
+    },
+    "Indiana Pacers": {
+        "logo": "/nba_team_logos/Indiana Pacers.png"
+    },
+    "Los Angeles Clippers": {
+        "logo": "/nba_team_logos/Los Angeles Clippers.png"
+    },
+    "Los Angeles Lakers": {
+        "logo": "/nba_team_logos/Los Angeles Lakers.png"
+    },
+    "Memphis Grizzlies": {
+        "logo": "/nba_team_logos/Memphis Grizzlies.png"
+    },
+    "Miami Heat": {
+        "logo": "/nba_team_logos/Miami Heat.png"
+    },
+    "Milwaukee Bucks": {
+        "logo": "/nba_team_logos/Milwaukee Bucks.png"
+    },
+    "Minnesota Timberwolves": {
+        "logo": "/nba_team_logos/Minnesota Timberwolves.png"
+    },
+    "New Orleans Pelicans": {
+        "logo": "/nba_team_logos/New Orleans Pelicans.png"
+    },
+    "New York Knicks": {
+        "logo": "/nba_team_logos/New York Knicks.png"
+    },
+    "Oklahoma City Thunder": {
+        "logo": "/nba_team_logos/Oklahoma City Thunder.png"
+    },
+    "Orlando Magic": {
+        "logo": "/nba_team_logos/Orlando Magic.png"
+    },
+    "Philadelphia 76ers": {
+        "logo": "/nba_team_logos/Philadelphia 76ers.png"
+    },
+    "Phoenix Suns": {
+        "logo": "/nba_team_logos/Phoenix Suns.png"
+    },
+    "Portland Trail Blazers": {
+        "logo": "/nba_team_logos/Portland Trail Blazers.png"
+    },
+    "Sacramento Kings": {
+        "logo": "/nba_team_logos/Sacramento Kings.png"
+    },
+    "San Antonio Spurs": {
+        "logo": "/nba_team_logos/San Antonio Spurs.png"
+    },
+    "Toronto Raptors": {
+        "logo": "/nba_team_logos/Toronto Raptors.png"
+    },
+    "Utah Jazz": {
+        "logo": "/nba_team_logos/Utah Jazz.png"
+    },
+    "Washington Wizards": {
+        "logo": "/nba_team_logos/Washington Wizards.png"
+    }
+}

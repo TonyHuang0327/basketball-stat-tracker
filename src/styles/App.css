@@ -32,13 +32,14 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.teams-div {
+  background-color: antiquewhite;
+  height: 100 vh;
+}
+
+.teams-div h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .teams-display {
@@ -56,17 +57,45 @@
 }
 
 .teams-display li {
-  width: 18%; /* 每個項目佔據 18% 的寬度，5 個項目就會填滿一行 */
+  width: 15%; /* 每個項目佔據 18% 的寬度，5 個項目就會填滿一行 */
   margin: 10px 5px; /* 增加間距 */
   list-style: none; /* 移除項目符號 */
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   border: 1px solid #282c34; /* 添加邊框寬度和樣式 */
-  padding-bottom: 2px;
-  border-radius: 3px;
+  padding: 6px; /* 添加內部填充，使文字有空間 */
+  border-radius: 3px; /* 圓角 */
+  text-align: center; /* 居中對齊內容 */
+}
+
+.teams-display li:hover {
+  background-color: #ce6d39; /* 懸停時改變背景色 */
+  transition: background-color 0.5s ease; /* 平滑過渡效果 */
+  cursor: pointer;
+}
+
+.teams-display li a {
+  text-decoration: none;
+}
+
+.teams-display li:hover a {
+  color: white; /* 懸停時文字變為白色 */
+  transition: background-color 0.5s ease; /* 平滑過渡效果 */
+}
+
+.TodayGame {
+  background-color: antiquewhite;
+}
+
+.TodayGame h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .game-display h2 {
-  justify-content: center;
+  text-align: left;
+  padding-left: 10px;
+  background-color: orange;
+  width: 100vw;
 }
 
 .game-display {
@@ -76,7 +105,6 @@
 }
 
 .game-display ul {
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -84,25 +112,24 @@
 }
 
 .game-display li {
-  width: auto;
+  width: max-content;
   margin: 10px 5px; /* 增加間距 */
   list-style: none; /* 移除項目符號 */
   font-size: 0.8rem;
+  padding: 3px;
   border: 1px solid #282c34; /* 添加邊框寬度和樣式 */
-  padding-bottom: 2px;
   border-radius: 3px;
 }
 
-
-.player-div{
+.player-div {
   background-color: antiquewhite;
 }
 
-.player-div h1{
-  padding:0px;
+.player-div h1 {
+  padding: 0px;
   margin: 0px;
 }
-.players-display h2{
+.players-display h2 {
   background-color: orange;
   border-top: 2px black solid;
   border-bottom: 2px black solid;

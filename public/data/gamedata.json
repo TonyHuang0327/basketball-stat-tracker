@@ -1,498 +1,498 @@
 [
     {
         "date": "Tue, Oct 22, 2024",
-        "visitor_team": "New York Knicks",
-        "home_team": "Boston Celtics",
+        "visitor_team": "NYK",
+        "home_team": "BOS",
         "visitor_score": "109",
         "home_score": "132"
     },
     {
         "date": "Tue, Oct 22, 2024",
-        "visitor_team": "Minnesota Timberwolves",
-        "home_team": "Los Angeles Lakers",
+        "visitor_team": "MIN",
+        "home_team": "LAL",
         "visitor_score": "103",
         "home_score": "110"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Indiana Pacers",
-        "home_team": "Detroit Pistons",
+        "visitor_team": "IND",
+        "home_team": "DET",
         "visitor_score": "115",
         "home_score": "109"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Brooklyn Nets",
-        "home_team": "Atlanta Hawks",
+        "visitor_team": "BKN",
+        "home_team": "ATL",
         "visitor_score": "116",
         "home_score": "120"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Orlando Magic",
-        "home_team": "Miami Heat",
+        "visitor_team": "ORL",
+        "home_team": "MIA",
         "visitor_score": "116",
         "home_score": "97"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Milwaukee Bucks",
-        "home_team": "Philadelphia 76ers",
+        "visitor_team": "MIL",
+        "home_team": "PHI",
         "visitor_score": "124",
         "home_score": "109"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Cleveland Cavaliers",
-        "home_team": "Toronto Raptors",
+        "visitor_team": "CLE",
+        "home_team": "TOR",
         "visitor_score": "136",
         "home_score": "106"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Charlotte Hornets",
-        "home_team": "Houston Rockets",
+        "visitor_team": "CHA",
+        "home_team": "HOU",
         "visitor_score": "110",
         "home_score": "105"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Chicago Bulls",
-        "home_team": "New Orleans Pelicans",
+        "visitor_team": "CHI",
+        "home_team": "NOP",
         "visitor_score": "111",
         "home_score": "123"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Memphis Grizzlies",
-        "home_team": "Utah Jazz",
+        "visitor_team": "MEM",
+        "home_team": "UTA",
         "visitor_score": "126",
         "home_score": "124"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Phoenix Suns",
-        "home_team": "Los Angeles Clippers",
+        "visitor_team": "PHS",
+        "home_team": "LAC",
         "visitor_score": "116",
         "home_score": "113"
     },
     {
         "date": "Wed, Oct 23, 2024",
-        "visitor_team": "Golden State Warriors",
-        "home_team": "Portland Trail Blazers",
+        "visitor_team": "GSW",
+        "home_team": "POR",
         "visitor_score": "140",
         "home_score": "104"
     },
     {
         "date": "Thu, Oct 24, 2024",
-        "visitor_team": "Boston Celtics",
-        "home_team": "Washington Wizards",
+        "visitor_team": "BOS",
+        "home_team": "WAS",
         "visitor_score": "122",
         "home_score": "102"
     },
     {
         "date": "Thu, Oct 24, 2024",
-        "visitor_team": "San Antonio Spurs",
-        "home_team": "Dallas Mavericks",
+        "visitor_team": "SAS",
+        "home_team": "DAL",
         "visitor_score": "109",
         "home_score": "120"
     },
     {
         "date": "Thu, Oct 24, 2024",
-        "visitor_team": "Minnesota Timberwolves",
-        "home_team": "Sacramento Kings",
+        "visitor_team": "MIN",
+        "home_team": "SAC",
         "visitor_score": "117",
         "home_score": "115"
     },
     {
         "date": "Thu, Oct 24, 2024",
-        "visitor_team": "Oklahoma City Thunder",
-        "home_team": "Denver Nuggets",
+        "visitor_team": "OKC",
+        "home_team": "DEN",
         "visitor_score": "102",
         "home_score": "87"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Brooklyn Nets",
-        "home_team": "Orlando Magic",
+        "visitor_team": "BKN",
+        "home_team": "ORL",
         "visitor_score": "101",
         "home_score": "116"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Philadelphia 76ers",
-        "home_team": "Toronto Raptors",
+        "visitor_team": "PHI",
+        "home_team": "TOR",
         "visitor_score": "107",
         "home_score": "115"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Charlotte Hornets",
-        "home_team": "Atlanta Hawks",
+        "visitor_team": "CHA",
+        "home_team": "ATL",
         "visitor_score": "120",
         "home_score": "125"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Detroit Pistons",
-        "home_team": "Cleveland Cavaliers",
+        "visitor_team": "DET",
+        "home_team": "CLE",
         "visitor_score": "101",
         "home_score": "113"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Indiana Pacers",
-        "home_team": "New York Knicks",
+        "visitor_team": "IND",
+        "home_team": "NYK",
         "visitor_score": "98",
         "home_score": "123"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Memphis Grizzlies",
-        "home_team": "Houston Rockets",
+        "visitor_team": "MEM",
+        "home_team": "HOU",
         "visitor_score": "108",
         "home_score": "128"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Chicago Bulls",
-        "home_team": "Milwaukee Bucks",
+        "visitor_team": "CHI",
+        "home_team": "MIL",
         "visitor_score": "133",
         "home_score": "122"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Golden State Warriors",
-        "home_team": "Utah Jazz",
+        "visitor_team": "GSW",
+        "home_team": "UTA",
         "visitor_score": "127",
         "home_score": "86"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "Phoenix Suns",
-        "home_team": "Los Angeles Lakers",
+        "visitor_team": "PHS",
+        "home_team": "LAL",
         "visitor_score": "116",
         "home_score": "123"
     },
     {
         "date": "Fri, Oct 25, 2024",
-        "visitor_team": "New Orleans Pelicans",
-        "home_team": "Portland Trail Blazers",
+        "visitor_team": "NOP",
+        "home_team": "POR",
         "visitor_score": "105",
         "home_score": "103"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Los Angeles Clippers",
-        "home_team": "Denver Nuggets",
+        "visitor_team": "LAC",
+        "home_team": "DEN",
         "visitor_score": "109",
         "home_score": "104"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Cleveland Cavaliers",
-        "home_team": "Washington Wizards",
+        "visitor_team": "CLE",
+        "home_team": "WAS",
         "visitor_score": "135",
         "home_score": "116"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Boston Celtics",
-        "home_team": "Detroit Pistons",
+        "visitor_team": "BOS",
+        "home_team": "DET",
         "visitor_score": "124",
         "home_score": "118"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Miami Heat",
-        "home_team": "Charlotte Hornets",
+        "visitor_team": "MIA",
+        "home_team": "CHA",
         "visitor_score": "114",
         "home_score": "106"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Orlando Magic",
-        "home_team": "Memphis Grizzlies",
+        "visitor_team": "ORL",
+        "home_team": "MEM",
         "visitor_score": "111",
         "home_score": "124"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Toronto Raptors",
-        "home_team": "Minnesota Timberwolves",
+        "visitor_team": "TOR",
+        "home_team": "MIN",
         "visitor_score": "101",
         "home_score": "112"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Oklahoma City Thunder",
-        "home_team": "Chicago Bulls",
+        "visitor_team": "OKC",
+        "home_team": "CHI",
         "visitor_score": "114",
         "home_score": "95"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Houston Rockets",
-        "home_team": "San Antonio Spurs",
+        "visitor_team": "HOU",
+        "home_team": "SAS",
         "visitor_score": "106",
         "home_score": "109"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Dallas Mavericks",
-        "home_team": "Phoenix Suns",
+        "visitor_team": "DAL",
+        "home_team": "PHS",
         "visitor_score": "102",
         "home_score": "114"
     },
     {
         "date": "Sat, Oct 26, 2024",
-        "visitor_team": "Sacramento Kings",
-        "home_team": "Los Angeles Lakers",
+        "visitor_team": "SAC",
+        "home_team": "LAL",
         "visitor_score": "127",
         "home_score": "131"
     },
     {
         "date": "Sun, Oct 27, 2024",
-        "visitor_team": "Philadelphia 76ers",
-        "home_team": "Indiana Pacers",
+        "visitor_team": "PHI",
+        "home_team": "IND",
         "visitor_score": "118",
         "home_score": "114"
     },
     {
         "date": "Sun, Oct 27, 2024",
-        "visitor_team": "New Orleans Pelicans",
-        "home_team": "Portland Trail Blazers",
+        "visitor_team": "NOP",
+        "home_team": "POR",
         "visitor_score": "103",
         "home_score": "125"
     },
     {
         "date": "Sun, Oct 27, 2024",
-        "visitor_team": "Milwaukee Bucks",
-        "home_team": "Brooklyn Nets",
+        "visitor_team": "MIL",
+        "home_team": "BKN",
         "visitor_score": "102",
         "home_score": "115"
     },
     {
         "date": "Sun, Oct 27, 2024",
-        "visitor_team": "Atlanta Hawks",
-        "home_team": "Oklahoma City Thunder",
+        "visitor_team": "ATL",
+        "home_team": "OKC",
         "visitor_score": "104",
         "home_score": "128"
     },
     {
         "date": "Sun, Oct 27, 2024",
-        "visitor_team": "Los Angeles Clippers",
-        "home_team": "Golden State Warriors",
+        "visitor_team": "LAC",
+        "home_team": "GSW",
         "visitor_score": "112",
         "home_score": "104"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Indiana Pacers",
-        "home_team": "Orlando Magic",
+        "visitor_team": "IND",
+        "home_team": "ORL",
         "visitor_score": "115",
         "home_score": "119"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Washington Wizards",
-        "home_team": "Atlanta Hawks",
+        "visitor_team": "WAS",
+        "home_team": "ATL",
         "visitor_score": "121",
         "home_score": "119"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Milwaukee Bucks",
-        "home_team": "Boston Celtics",
+        "visitor_team": "MIL",
+        "home_team": "BOS",
         "visitor_score": "108",
         "home_score": "119"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Denver Nuggets",
-        "home_team": "Toronto Raptors",
+        "visitor_team": "DEN",
+        "home_team": "TOR",
         "visitor_score": "127",
         "home_score": "125"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Detroit Pistons",
-        "home_team": "Miami Heat",
+        "visitor_team": "DET",
+        "home_team": "MIA",
         "visitor_score": "98",
         "home_score": "106"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Cleveland Cavaliers",
-        "home_team": "New York Knicks",
+        "visitor_team": "CLE",
+        "home_team": "NYK",
         "visitor_score": "110",
         "home_score": "104"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Houston Rockets",
-        "home_team": "San Antonio Spurs",
+        "visitor_team": "HOU",
+        "home_team": "SAS",
         "visitor_score": "106",
         "home_score": "101"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Chicago Bulls",
-        "home_team": "Memphis Grizzlies",
+        "visitor_team": "CHI",
+        "home_team": "MEM",
         "visitor_score": "126",
         "home_score": "123"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Utah Jazz",
-        "home_team": "Dallas Mavericks",
+        "visitor_team": "UTA",
+        "home_team": "DAL",
         "visitor_score": "102",
         "home_score": "110"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Portland Trail Blazers",
-        "home_team": "Sacramento Kings",
+        "visitor_team": "POR",
+        "home_team": "SAC",
         "visitor_score": "98",
         "home_score": "111"
     },
     {
         "date": "Mon, Oct 28, 2024",
-        "visitor_team": "Los Angeles Lakers",
-        "home_team": "Phoenix Suns",
+        "visitor_team": "LAL",
+        "home_team": "PHS",
         "visitor_score": "105",
         "home_score": "109"
     },
     {
         "date": "Tue, Oct 29, 2024",
-        "visitor_team": "Denver Nuggets",
-        "home_team": "Brooklyn Nets",
+        "visitor_team": "DEN",
+        "home_team": "BKN",
         "visitor_score": "144",
         "home_score": "139"
     },
     {
         "date": "Tue, Oct 29, 2024",
-        "visitor_team": "Dallas Mavericks",
-        "home_team": "Minnesota Timberwolves",
+        "visitor_team": "DAL",
+        "home_team": "MIN",
         "visitor_score": "120",
         "home_score": "114"
     },
     {
         "date": "Tue, Oct 29, 2024",
-        "visitor_team": "Sacramento Kings",
-        "home_team": "Utah Jazz",
+        "visitor_team": "SAC",
+        "home_team": "UTA",
         "visitor_score": "113",
         "home_score": "96"
     },
     {
         "date": "Tue, Oct 29, 2024",
-        "visitor_team": "New Orleans Pelicans",
-        "home_team": "Golden State Warriors",
+        "visitor_team": "NOP",
+        "home_team": "GSW",
         "visitor_score": "106",
         "home_score": "124"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "Detroit Pistons",
-        "home_team": "Philadelphia 76ers",
+        "visitor_team": "DET",
+        "home_team": "PHI",
         "visitor_score": "105",
         "home_score": "95"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "Atlanta Hawks",
-        "home_team": "Washington Wizards",
+        "visitor_team": "ATL",
+        "home_team": "WAS",
         "visitor_score": "120",
         "home_score": "133"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "Boston Celtics",
-        "home_team": "Indiana Pacers",
+        "visitor_team": "BOS",
+        "home_team": "IND",
         "visitor_score": "132",
         "home_score": "135"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "Los Angeles Lakers",
-        "home_team": "Cleveland Cavaliers",
+        "visitor_team": "LAL",
+        "home_team": "CLE",
         "visitor_score": "110",
         "home_score": "134"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "Toronto Raptors",
-        "home_team": "Charlotte Hornets",
+        "visitor_team": "TOR",
+        "home_team": "CHA",
         "visitor_score": "133",
         "home_score": "138"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "New York Knicks",
-        "home_team": "Miami Heat",
+        "visitor_team": "NYK",
+        "home_team": "MIA",
         "visitor_score": "116",
         "home_score": "107"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "Orlando Magic",
-        "home_team": "Chicago Bulls",
+        "visitor_team": "ORL",
+        "home_team": "CHI",
         "visitor_score": "99",
         "home_score": "102"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "Brooklyn Nets",
-        "home_team": "Memphis Grizzlies",
+        "visitor_team": "BKN",
+        "home_team": "MEM",
         "visitor_score": "119",
         "home_score": "106"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "San Antonio Spurs",
-        "home_team": "Oklahoma City Thunder",
+        "visitor_team": "SAS",
+        "home_team": "OKC",
         "visitor_score": "93",
         "home_score": "105"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "New Orleans Pelicans",
-        "home_team": "Golden State Warriors",
+        "visitor_team": "NOP",
+        "home_team": "GSW",
         "visitor_score": "89",
         "home_score": "104"
     },
     {
         "date": "Wed, Oct 30, 2024",
-        "visitor_team": "Portland Trail Blazers",
-        "home_team": "Los Angeles Clippers",
+        "visitor_team": "POR",
+        "home_team": "LAC",
         "visitor_score": "106",
         "home_score": "105"
     },
     {
         "date": "Thu, Oct 31, 2024",
-        "visitor_team": "Milwaukee Bucks",
-        "home_team": "Memphis Grizzlies",
+        "visitor_team": "MIL",
+        "home_team": "MEM",
         "visitor_score": "99",
         "home_score": "122"
     },
     {
         "date": "Thu, Oct 31, 2024",
-        "visitor_team": "Houston Rockets",
-        "home_team": "Dallas Mavericks",
+        "visitor_team": "HOU",
+        "home_team": "DAL",
         "visitor_score": "108",
         "home_score": "102"
     },
     {
         "date": "Thu, Oct 31, 2024",
-        "visitor_team": "San Antonio Spurs",
-        "home_team": "Utah Jazz",
+        "visitor_team": "SAS",
+        "home_team": "UTA",
         "visitor_score": "106",
         "home_score": "88"
     },
     {
         "date": "Thu, Oct 31, 2024",
-        "visitor_team": "Phoenix Suns",
-        "home_team": "Los Angeles Clippers",
+        "visitor_team": "PHS",
+        "home_team": "LAC",
         "visitor_score": "125",
         "home_score": "119"
     }
