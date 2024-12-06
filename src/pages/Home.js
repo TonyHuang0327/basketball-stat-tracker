@@ -1,5 +1,6 @@
 import '../styles/App.css';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Home(){
     const [content, setContent] = useState({})
@@ -27,17 +28,34 @@ function Home(){
                         <p>{section.description}</p>
                         {section.example_games &&
                             section.example_games.map((game, gameIndex) => (
-                                <p key={gameIndex}>
-                                    <strong>{game.matchup}</strong> - {game.time}
-                                </p>
+                                <div className = "gamesbox" key ={gameIndex}>
+                                    <p>
+                                        <span className="team">{game.matchup.split(' vs. ')[0]}</span>
+                                        <span className="vs">vs.</span>
+                                        <span className="team">{game.matchup.split(' vs. ')[1]}</span>
+                                        {game.time}
+                                    </p>
+                                </div>
                             ))}
                         {section.highlights &&
                             section.highlights.map((highlight, highlightIndex) => (
-                                <p key={highlightIndex}>
-                                    <strong>{highlight.category}:</strong> {highlight.player} ({highlight.stat})
-                                </p>
+                                <div className='gamesbox' key={highlightIndex}>
+                                    <p>
+                                        <span className='category'>{highlight.category}</span>
+                                        <span className='player'>{highlight.player}</span>
+                                        <span className='stat'>{highlight.stat}</span>
+                                    </p>
+                                </div>
                             ))}
-                        {section.example && <p>{section.example}</p>}
+                        {section.examples &&
+                            <ul>
+                                {section.examples.map((example,exampleIndex) => (
+                                    <li className="history_examples" key={exampleIndex}>
+                                        <Link to="/article" className="history_examples">{example}</Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        }
                     </div>
                 ))
             ) : (

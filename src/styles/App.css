@@ -69,6 +69,71 @@
   padding-top: 10px;
 }
 
+.gamesbox {
+  display: inline-block; /* 讓方塊排列在同一行 */
+  width: 200px;          /* 固定寬度 */
+  padding: 5px;         /* 內邊距，讓內容和邊框有間距 */
+  margin: 10px;          /* 外邊距，讓方塊之間有間距 */
+  border: 2px solid #4CAF50; /* 綠色邊框 */
+  border-radius: 10px;   /* 邊框圓角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影 */
+  background-color: #f9f9f9; /* 背景顏色 */
+  text-align: center;    /* 文本居中對齊 */
+  font-family: Arial, sans-serif; /* 字體 */
+  transition: transform 0.2s, box-shadow 0.2s; /* 添加動畫效果 */
+}
+
+.gamesbox p {
+  margin: 5px 0;         /* 確保段落之間有一致的間距 */
+  line-height: 1.5;      /* 行高，讓文本更易讀 */
+}
+
+.team {
+  display: block;        /* 設置為塊級元素，分行顯示 */
+  font-size: 16px;       /* 團隊名稱字體大小 */
+  font-weight: bold;     /* 加粗團隊名稱 */
+  text-align: center;    /* 文字居中 */
+}
+
+.vs {
+  display: block;        /* 分行顯示 */
+  font-size: 14px;       /* "vs." 的字體大小 */
+  font-style: italic;    /* 斜體字以區分 */
+  text-align: center;    /* 文字居中 */
+  margin: 5px 0;         /* 與上下文字保持距離 */
+}
+
+
+
+/* 方塊的 hover 效果 */
+.gamesbox:hover {
+  transform: scale(1.05); /* 鼠標移入時稍微放大 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* 增強陰影效果 */
+}
+
+.category{
+  display: block;        /* 設置為塊級元素，分行顯示 */
+  font-size: 16px;       /* 團隊名稱字體大小 */
+  font-weight: bold;
+  text-align: center;    /* 文字居中 */
+}
+.player{
+  display: block;        /* 分行顯示 */
+  font-size: 20px;
+  text-align: center;    /* 文字居中 */
+  font-weight: bold;
+  margin: 5px 0;         /* 與上下文字保持距離 */
+}
+
+.history_examples{
+  color: blue;
+  text-decoration: underline;
+  text-align: start;
+  list-style-type:disc; /* 使用實心圓作為項目符號 */
+  margin-left: 20px; /* 讓符號和文字保持適當距離 */
+  margin-top: 10px;
+}
+
 .teams-div {
   background-color: antiquewhite;
   height: 100 vh;
@@ -83,6 +148,12 @@
   display: flex;
   flex-wrap: wrap; /* 允許換行 */
   justify-content: space-between; /* 使項目均勻分布 */
+}
+
+.teams-display img {
+  display: block; /* 讓圖片作為區塊元素 */
+  margin: 0 auto; /* 讓圖片水平居中 */
+
 }
 
 .teams-display ul {

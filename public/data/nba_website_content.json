@@ -3,12 +3,28 @@
         "tagline": "Your ultimate source for everything NBA!",
         "featured_sections": [
             {
-                "title": "Today's Games",
-                "description": "查看今日所有賽事的即時比分和結果。快來支援你的球隊！",
+                "title": "Coming up Next",
+                "description": "查看近日所有賽事的即時比分和結果。快來支援你的球隊！",
                 "example_games": [
                     {
                         "matchup": "Boston Celtics vs. Los Angeles Lakers",
                         "time": "今晚 8:00 PM"
+                    },
+                    {
+                        "matchup": "Golden State Warriors vs. Miami Heat",
+                        "time": "今晚 9:30 PM"
+                    },
+                    {
+                        "matchup": "Chicago Bulls vs. New York Knicks",
+                        "time": "明天 7:00 PM"
+                    },
+                    {
+                        "matchup": "Brooklyn Nets vs. Phoenix Suns",
+                        "time": "明天 10:00 PM"
+                    },
+                    {
+                        "matchup": "Dallas Mavericks vs. Denver Nuggets",
+                        "time": "後天 8:00 PM"
                     }
                 ]
             },
@@ -36,8 +52,21 @@
             {
                 "title": "歷史經典",
                 "description": "NBA 歷史中的經典瞬間",
-                "example": "2006年，Dwyane Wade 帶領邁阿密熱火贏得總冠軍，成為總決賽 MVP！"
+                "examples": [
+                    "2006年，Dwyane Wade 帶領邁阿密熱火贏得總冠軍，成為總決賽 MVP！",
+                    "2016年，LeBron James 帶領克里夫蘭騎士隊實現 3-1 大逆轉，擊敗金州勇士，奪得隊史首冠！",
+                    "1998年，Michael Jordan 在總決賽 Game 6 投進致勝跳投，幫助芝加哥公牛奪得第六冠。",
+                    "2000年，Shaquille O'Neal 獲得 NBA 總決賽 MVP，率領洛杉磯湖人奪冠並開啟三連霸時代。",
+                    "2013年，Ray Allen 在總決賽 Game 6 投進關鍵三分，幫助邁阿密熱火逆轉勝出，最終奪冠。",
+                    "1995年，Hakeem Olajuwon 帶領休士頓火箭完成二連霸，成為總決賽 MVP。",
+                    "2011年，Dirk Nowitzki 帶領達拉斯小牛擊敗大熱的邁阿密熱火，奪得生涯首座總冠軍。",
+                    "1980年，Magic Johnson 在總決賽 Game 6 擔任中鋒，帶領洛杉磯湖人奪冠，並獲得總決賽 MVP。",
+                    "1984年，Larry Bird 與魔術強森的對決，波士頓塞爾提克奪下總冠軍，Bird 成為 MVP。",
+                    "1970年，Willis Reed 在 Game 7 帶傷上場，激勵紐約尼克擊敗湖人奪冠。",
+                    "1994年，Reggie Miller 在一場比賽中短短 8.9 秒投進 8 分，創下歷史經典。"
+                ]
             }
+            
         ],
         "recommendations": [
             "Discover the top players of the season!",
