@@ -6,6 +6,7 @@ import Today from '../pages/Today';
 import Players from '../pages/Player';
 import Home from '../pages/Home';
 import Article from './Article';
+import News from './News';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Player" element={<Players />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/article" element={<Article />} />
+        <Route path="/News" element={<News />} />
       </Routes>
     </div>
   );

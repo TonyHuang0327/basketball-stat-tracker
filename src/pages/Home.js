@@ -9,7 +9,6 @@ function Home(){
         fetch('/data/nba_website_content.json')
         .then(response => response.json())
         .then((data) => {
-            console.log(data); // 確認資料內容
             setContent(data.home);
         })
         .catch(error => console.error('Error loading JSON:', error));

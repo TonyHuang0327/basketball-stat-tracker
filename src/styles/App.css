@@ -20,7 +20,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/* Home Page */
 .Home {
   background-color: antiquewhite;
   height: 100 vh;
@@ -133,7 +133,7 @@
   margin-left: 20px; /* 讓符號和文字保持適當距離 */
   margin-top: 10px;
 }
-
+/* Teams Page */
 .teams-div {
   background-color: antiquewhite;
   height: 100 vh;
@@ -189,7 +189,7 @@
   color: white; /* 懸停時文字變為白色 */
   transition: background-color 0.5s ease; /* 平滑過渡效果 */
 }
-
+/* Todays Page */
 .TodayGame {
   background-color: antiquewhite;
 }
@@ -228,7 +228,7 @@
   border: 1px solid #282c34; /* 添加邊框寬度和樣式 */
   border-radius: 3px;
 }
-
+/* Player Page */
 .player-div {
   background-color: antiquewhite;
 }
@@ -263,4 +263,33 @@
   list-style: none; /* 移除項目符號 */
   font-size: 0.8rem;
   padding-bottom: 2px;
+}
+/* News Page */
+.News {
+  background-color: antiquewhite;
+  height: 100 vh;
+}
+
+.News h1 {
+  font-size: 38px;
+  font-weight: 800;
+  display: flex;
+  justify-content:center ;
+  align-items:center ;
+}
+
+.News h1::before,
+.News h1::after {
+  content: '';
+  width: 70px;
+  height: 3px;
+  background-color: #ce6d39;
+}
+
+.News h1::before{
+  margin-right: 30px;
+}
+
+.News h1::after{
+  margin-left: 30px;
 }
