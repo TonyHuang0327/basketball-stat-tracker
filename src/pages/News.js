@@ -23,8 +23,30 @@ function News (){
             {news.headline_news ? (
                 news.headline_news.map((headline,index) => (
                     <div key = {index} className='newsbox'>
-                        <h2>{headline.title}</h2>
+                        <Link to="">{headline.title}</Link>
                         <p>{headline.content}</p>-{headline.date}
+                    </div>
+                ))
+            ):(
+                <p>No sections available</p>
+            )}
+            <h1>rumors_and_discussions !</h1>
+            {news.rumors_and_discussions ? (
+                news.rumors_and_discussions.map((rumor,index) => (
+                    <div key = {index} className='newsbox'>
+                        <Link to="">{rumor.title}</Link>
+                        <p>{rumor.content}</p>
+                    </div>
+                ))
+            ):(
+                <p>No sections available</p>
+            )}
+            <h1>featured_columns</h1>
+            {news.featured_columns ? (
+                news.featured_columns.map((column,index) => (
+                    <div key = {index} className='newsbox'>
+                        <Link to="">{column.title}</Link>
+                        <p>{column.content}</p>
                     </div>
                 ))
             ):(
