@@ -20,18 +20,21 @@
 .App-link {
   color: #61dafb;
 }
+
+body{
+  background-color: antiquewhite;
+}
 /* Home Page */
 .Home {
-  background-color: antiquewhite;
-  height: 100 vh;
+  height: 100vh;
 }
 
 .Home h1 {
   font-size: 38px;
   font-weight: 800;
   display: flex;
-  justify-content:center ;
-  align-items:center ;
+  justify-content: center;
+  align-items: center;
 }
 
 .Home h1::before,
@@ -70,90 +73,72 @@
 }
 
 .gamesbox {
-  display: inline-block; /* 讓方塊排列在同一行 */
-  width: 200px;          /* 固定寬度 */
-  padding: 5px;         /* 內邊距，讓內容和邊框有間距 */
-  margin: 10px;          /* 外邊距，讓方塊之間有間距 */
-  border: 2px solid #4CAF50; /* 綠色邊框 */
-  border-radius: 10px;   /* 邊框圓角 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影 */
-  background-color: #f9f9f9; /* 背景顏色 */
-  text-align: center;    /* 文本居中對齊 */
-  font-family: Arial, sans-serif; /* 字體 */
-  transition: transform 0.2s, box-shadow 0.2s; /* 添加動畫效果 */
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .gamesbox p {
-  margin: 5px 0;         /* 確保段落之間有一致的間距 */
-  line-height: 1.5;      /* 行高，讓文本更易讀 */
+  margin: 5px 0;
+  line-height: 1.5;
 }
 
-.team {
-  display: block;        /* 設置為塊級元素，分行顯示 */
-  font-size: 16px;       /* 團隊名稱字體大小 */
-  font-weight: bold;     /* 加粗團隊名稱 */
-  text-align: center;    /* 文字居中 */
-}
-
-.vs {
-  display: block;        /* 分行顯示 */
-  font-size: 14px;       /* "vs." 的字體大小 */
-  font-style: italic;    /* 斜體字以區分 */
-  text-align: center;    /* 文字居中 */
-  margin: 5px 0;         /* 與上下文字保持距離 */
-}
-
-
-
-/* 方塊的 hover 效果 */
 .gamesbox:hover {
-  transform: scale(1.05); /* 鼠標移入時稍微放大 */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* 增強陰影效果 */
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .category{
-  display: block;        /* 設置為塊級元素，分行顯示 */
-  font-size: 16px;       /* 團隊名稱字體大小 */
+  display: block;
+  font-size: 16px;
   font-weight: bold;
-  text-align: center;    /* 文字居中 */
+  text-align: center;
 }
+
 .player{
-  display: block;        /* 分行顯示 */
+  display: block;
   font-size: 20px;
-  text-align: center;    /* 文字居中 */
+  text-align: center;
   font-weight: bold;
-  margin: 5px 0;         /* 與上下文字保持距離 */
+  margin: 5px 0;
 }
 
 .history_examples{
   color: blue;
   text-decoration: underline;
   text-align: start;
-  list-style-type:disc; /* 使用實心圓作為項目符號 */
-  margin-left: 20px; /* 讓符號和文字保持適當距離 */
+  list-style-type: disc;
+  margin-left: 20px;
   margin-top: 10px;
 }
+
 /* Teams Page */
 .teams-div {
-  background-color: antiquewhite;
-  height: 100 vh;
+  height: 100vh;
 }
 
 .teams-div h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .teams-display {
   display: flex;
-  flex-wrap: wrap; /* 允許換行 */
-  justify-content: space-between; /* 使項目均勻分布 */
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .teams-display img {
-  display: block; /* 讓圖片作為區塊元素 */
-  margin: 0 auto; /* 讓圖片水平居中 */
-
+  display: block;
+  margin: 0 auto;
 }
 
 .teams-display ul {
@@ -165,19 +150,19 @@
 }
 
 .teams-display li {
-  width: 15%; /* 每個項目佔據 18% 的寬度，5 個項目就會填滿一行 */
-  margin: 10px 5px; /* 增加間距 */
-  list-style: none; /* 移除項目符號 */
+  width: 15%;
+  margin: 10px 5px;
+  list-style: none;
   font-size: 0.7rem;
-  border: 1px solid #282c34; /* 添加邊框寬度和樣式 */
-  padding: 6px; /* 添加內部填充，使文字有空間 */
-  border-radius: 3px; /* 圓角 */
-  text-align: center; /* 居中對齊內容 */
+  border: 1px solid #282c34;
+  padding: 6px;
+  border-radius: 3px;
+  text-align: center;
 }
 
 .teams-display li:hover {
-  background-color: #ce6d39; /* 懸停時改變背景色 */
-  transition: background-color 0.5s ease; /* 平滑過渡效果 */
+  background-color: #ce6d39;
+  transition: background-color 0.5s ease;
   cursor: pointer;
 }
 
@@ -186,17 +171,17 @@
 }
 
 .teams-display li:hover a {
-  color: white; /* 懸停時文字變為白色 */
-  transition: background-color 0.5s ease; /* 平滑過渡效果 */
+  color: white;
+  transition: color 0.5s ease;
 }
+
 /* Todays Page */
 .TodayGame {
-  background-color: antiquewhite;
 }
 
 .TodayGame h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .game-display h2 {
@@ -208,8 +193,8 @@
 
 .game-display {
   display: flex;
-  flex-wrap: wrap; /* 允許換行 */
-  justify-content: space-around; /* 使項目均勻分布 */
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .game-display ul {
@@ -221,22 +206,23 @@
 
 .game-display li {
   width: max-content;
-  margin: 10px 5px; /* 增加間距 */
-  list-style: none; /* 移除項目符號 */
+  margin: 10px 5px;
+  list-style: none;
   font-size: 0.8rem;
   padding: 3px;
-  border: 1px solid #282c34; /* 添加邊框寬度和樣式 */
+  border: 1px solid #282c34;
   border-radius: 3px;
 }
+
 /* Player Page */
 .player-div {
-  background-color: antiquewhite;
 }
 
 .player-div h1 {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
+
 .players-display h2 {
   background-color: orange;
   border-top: 2px black solid;
@@ -244,10 +230,11 @@
   text-align: left;
   padding-left: 10px;
 }
+
 .players-display {
   display: flex;
-  flex-wrap: wrap; /* 允許換行 */
-  justify-content: space-around; /* 使項目均勻分布 */
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .players-display ul {
@@ -259,37 +246,109 @@
 
 .players-display li {
   width: auto;
-  margin: 5px 5px; /* 增加間距 */
-  list-style: none; /* 移除項目符號 */
+  margin: 5px 5px;
+  list-style: none;
   font-size: 0.8rem;
   padding-bottom: 2px;
 }
+
 /* News Page */
 .News {
-  background-color: antiquewhite;
-  height: 100 vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .News h1 {
-  font-size: 38px;
+  font-size: 2rem;
   font-weight: 800;
-  display: flex;
-  justify-content:center ;
-  align-items:center ;
+  color: #222;
+  margin-bottom: 20px;
+  border-bottom: 2px solid orange;
+  padding-bottom: 10px;
 }
 
-.News h1::before,
-.News h1::after {
-  content: '';
-  width: 70px;
-  height: 3px;
-  background-color: #ce6d39;
+.newsbox {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fafafa;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.News h1::before{
-  margin-right: 30px;
+.newsbox:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.News h1::after{
-  margin-left: 30px;
+.newsbox a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+.newsbox a:hover {
+  color: #005bb5;
+}
+
+.newsbox p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.newsbox p:last-child {
+  font-size: 0.9rem;
+  color: #999;
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Home h1 {
+    font-size: 30px;
+  }
+
+  .gamesbox {
+    width: 150px;
+  }
+
+  .teams-display li {
+    width: 30%;
+  }
+
+  .game-display h2 {
+    font-size: 1rem;
+  }
+
+  .newsbox a {
+    font-size: 1rem;
+  }
+
+  .newsbox p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Home h1 {
+    font-size: 24px;
+  }
+
+  .gamesbox {
+    width: 100%;
+  }
+
+  .teams-display li {
+    width: 45%;
+  }
+
+  .newsbox {
+    padding: 10px;
+  }
 }

@@ -1,0 +1,62 @@
+{
+    "awards": {
+      "season_awards": [
+        {
+          "year": "2023-24",
+          "mvp": {
+            "player_name": "Nikola Jokic",
+            "team": "Denver Nuggets",
+            "stats": "27.1 PPG, 13.8 RPG, 8.5 APG"
+          },
+          "rookie_of_the_year": {
+            "player_name": "Victor Wembanyama",
+            "team": "San Antonio Spurs",
+            "stats": "20.3 PPG, 10.1 RPG, 2.8 BPG"
+          },
+          "defensive_player_of_the_year": {
+            "player_name": "Jaren Jackson Jr.",
+            "team": "Memphis Grizzlies",
+            "stats": "3.2 BPG, 8.3 RPG"
+          },
+          "most_improved_player": {
+            "player_name": "Mikal Bridges",
+            "team": "Brooklyn Nets",
+            "stats": "25.6 PPG, 6.1 RPG"
+          }
+        }
+      ],
+      "team_awards": [
+        {
+          "year": "2023-24",
+          "champion": {
+            "team_name": "Denver Nuggets",
+            "finals_mvp": {
+              "player_name": "Nikola Jokic",
+              "stats": "30.2 PPG, 14.5 RPG, 9.8 APG"
+            }
+          },
+          "runner_up": "Boston Celtics",
+          "conference_winners": {
+            "western_conference": "Denver Nuggets",
+            "eastern_conference": "Boston Celtics"
+          }
+        }
+      ],
+      "all_star_awards": [
+        {
+          "year": "2024",
+          "all_star_game_mvp": {
+            "player_name": "Stephen Curry",
+            "team": "Golden State Warriors",
+            "stats": "41 PTS, 7 AST, 6 REB"
+          },
+          "most_votes": {
+            "player_name": "Giannis Antetokounmpo",
+            "team": "Milwaukee Bucks",
+            "votes": "6,210,547"
+          }
+        }
+      ]
+    }
+  }
+  

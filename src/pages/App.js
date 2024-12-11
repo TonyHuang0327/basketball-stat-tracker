@@ -7,6 +7,7 @@ import Players from '../pages/Player';
 import Home from '../pages/Home';
 import Article from './Article';
 import News from './News';
+import Awards from './Awards';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Home" element={<Home />} />
         <Route path="/article" element={<Article />} />
         <Route path="/News" element={<News />} />
+        <Route path="/Awards" element={<Awards />} />
       </Routes>
     </div>
   );

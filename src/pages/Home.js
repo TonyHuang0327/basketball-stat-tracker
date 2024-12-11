@@ -30,8 +30,11 @@ function Home(){
                                 <div className = "gamesbox" key ={gameIndex}>
                                     <p>
                                         <span className="team">{game.matchup.split(' vs. ')[0]}</span>
+                                        <br />
                                         <span className="vs">vs.</span>
+                                        <br />
                                         <span className="team">{game.matchup.split(' vs. ')[1]}</span>
+                                        <br />
                                         {game.time}
                                     </p>
                                 </div>
